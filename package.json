@@ -1,0 +1,26 @@
+{
+  "name": "dogebot",
+  "version": "1.0.0",
+  "description": "it is a bot",
+  "main": "dogebot.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/holyjohn00/dogebot.git"
+  },
+  "keywords": [
+    "dogebot"
+  ],
+  "author": "Leeroy",
+  "license": "ISC",
+  "dependencies": {
+    "slackbots": "^0.5.1",
+    "sqlite3": "^3.1.4"
+  },
+  "bin": {
+    "dogebot": "bot.js"
+  },
+  "devDependencies": {}
+}
